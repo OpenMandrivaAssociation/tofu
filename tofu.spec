@@ -13,7 +13,6 @@ Source0:	%{oname}-%{version}.tar.bz2
 License:	LGPL
 Group:		Development/Python
 URL:		http://pyserial.sourceforge.net
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	libpython-devel >= %pyversion
 BuildArch:	noarch
 Requires:	python, python-twisted-core
