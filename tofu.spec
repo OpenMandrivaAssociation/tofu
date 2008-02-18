@@ -5,7 +5,7 @@
 %define pysystemver	2.5
 %define release		%mkrel 2
 
-Summary:	Tofu is a network game engine written with python and twisted
+Summary:	Network game engine written with python and twisted
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
