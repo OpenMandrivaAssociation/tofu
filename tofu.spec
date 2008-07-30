@@ -3,7 +3,7 @@
 %define version		0.5
 %define pyversion	2.5
 %define pysystemver	2.5
-%define release		%mkrel 3
+%define release		%mkrel 5
 
 Summary:	Network game engine written with python and twisted
 Name:		%{name}
