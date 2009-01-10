@@ -1,8 +1,6 @@
 %define name		tofu
 %define oname		Tofu
 %define version		0.5
-%define pyversion	2.5
-%define pysystemver	2.5
 %define release		%mkrel 6
 
 Summary:	Network game engine written with python and twisted
@@ -14,9 +12,9 @@ License:	LGPL
 Group:		Development/Python
 URL:		http://pyserial.sourceforge.net
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	libpython-devel >= %pyversion
+%py_requires -d
 BuildArch:	noarch
-Requires:	python, python-twisted-core
+Requires:	python-twisted-core
 
 %description
 Tofu is a practical high-level network game engine, written in Python and 
@@ -48,6 +46,4 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %doc README demo/*
-%attr(0755,root,root) %{_libdir}/python%{pysystemver}/site-packages/*
-
-
+%attr(0755,root,root) %{python_sitelib}/*
