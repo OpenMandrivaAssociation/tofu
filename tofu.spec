@@ -1,7 +1,7 @@
 %define name		tofu
 %define oname		Tofu
 %define version		0.5
-%define release		%mkrel 7
+%define release		%mkrel 8
 
 Summary:	Network game engine written with python and twisted
 Name:		%{name}
