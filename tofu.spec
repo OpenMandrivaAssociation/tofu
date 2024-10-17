@@ -10,7 +10,7 @@ Release:	%{release}
 Source0:	%{oname}-%{version}.tar.bz2
 License:	LGPL
 Group:		Development/Python
-URL:		http://pyserial.sourceforge.net
+URL:		https://pyserial.sourceforge.net
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 %py_requires -d
 BuildArch:	noarch
